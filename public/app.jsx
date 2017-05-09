@@ -12,7 +12,7 @@ var GreeterMessage = React.createClass({
 var GreeterForm = React.createClass({
   render: function () {
     return (
-      <form onSubmit={this.onButtonClick}>
+      <form>
         <input type="text" ref="name"/>
         <button>Set Name</button>
       </form>
@@ -57,6 +57,11 @@ var Greeter = React.createClass({
         <GreeterMessage/>
 
         <GreeterForm/>
+
+        <form onSubmit={this.onButtonClick}>
+          <input type="text" ref="name"/>
+          <button>Set Name</button>
+        </form>
       </div>
     );
   }
