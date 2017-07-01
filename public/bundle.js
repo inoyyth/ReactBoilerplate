@@ -50,7 +50,7 @@
 	var ReactDOM = __webpack_require__(158);
 	var Greeter = __webpack_require__(159);
 
-	var firstName = 'Inoy';
+	var firstName = 'Inoy YTH';
 
 	ReactDOM.render(React.createElement(Greeter, { name: firstName, message: 'Hai, this message from props!' }), document.getElementById('app'));
 
